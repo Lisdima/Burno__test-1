@@ -1,0 +1,92 @@
+.reviews
+  background: #F7F8FA
+  overflow: hidden
+.reviews__title
+  padding-top: 48px
+.reviews__text
+  margin-top: 24px
+  margin-bottom: 16px
+.review-cards
+  position: relative
+  white-space: nowrap
+  margin: 0 -16%
+  padding: 0 16%
+.review__card
+  display: inline-block
+  position: relative
+  min-width: 252px
+  vertical-align: top
+  height: fit-content
+  margin: 0 16px 32px 0
+  padding: 12px 16px 16px
+  background: #ffffff
+  box-sizing: border-box
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.03)
+  border-radius: 4px
+.review__card:last-child
+  margin-right: 0
+.card__text
+  white-space: normal
+  max-width: 240px
+  font-size: 16px
+  line-height: 20px
+  margin-bottom: 10px
+.card__rating
+  padding-top: 10px
+.rating__num
+  font-family: "Avenir regular"
+  font-size: 12px
+  line-height: 16px
+  color: #FBB143
+.rating__icon
+  margin-left: 20px
+  vertical-align: middle
+.rating__university
+  font-size: 12px
+  line-height: 16px
+  color: rgba(87, 87, 87, 0.6)
+
+@media (min-width: 410px)
+  .review__cards
+    margin: 0px -79px
+    padding: 0px 79px
+  .card__rating
+    min-width: 262px
+  .card__text
+    font-size: 18px
+
+@media (min-width: 650px)
+  .review-cards
+    margin: 0 -6.7%
+    padding: 0 6.7%
+  .card__text
+    font-size: 16px
+    margin-bottom: 10px
+  .card__rating
+    padding-top: 0
+  .review__card
+    max-width: 282px
+    min-width: 280px
+    padding: 12px 20px 16px
+
+@media ( min-width: 768px)
+  .review-cards 
+    margin: 0 -255px
+    padding: 0 255px
+  .review__card
+    margin-bottom: 64px
+
+@media (min-width: 1200px)
+  .reviews__title
+    padding-top: 72px
+  .reviews__text
+    margin: 38px 0 22px 0
+  .review-cards
+    margin: 0 -300px
+    padding: 0 300px
+  .review__card
+    margin-bottom: 72px
+  
+@media (max-width: 1400px)
+  .review-cards
+    overflow-x: scroll

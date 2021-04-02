@@ -1,0 +1,72 @@
+@import 'input'
+  
+// Calculate
+.calculate
+  margin-top: 56px
+  &__title, title
+    max-width: 340px
+  &__title-new
+    display: none
+.calculate__text
+  margin: 8px 0 64px
+.calculate__inputs
+  position: relative
+  margin-top: 24px
+.calculate__input
+  max-width: 500px
+  width: 100%
+.calculate__input_active
+  box-shadow: 0px 0px 20px rgba(251, 177, 67, 0.2)
+  border: 1px solid rgba(251, 177, 67, 0.5)
+
+@media (min-width: 410px)
+  .calculate__input
+    font-size: 18px
+    padding: 21px 0 21px 15px
+  .calculate__text
+    max-width: 330px
+
+@media (min-width: 650px)
+  .calculate
+    margin-top: 80px
+  .calculate__title
+    display: none
+  .calculate__title-new
+    display: block
+    max-width: 550px
+  .calculate__inputs
+    white-space: nowrap
+    margin-top: 32px
+  .calculate__input
+    display: inline-block
+    max-width: 320px
+    width: 45%
+    font-size: 16px
+    line-height: 20px
+    margin: 0 16px 24px 0
+    color: rgba(87, 87, 87, 0.6)
+  .calculate__input:last-child
+    margin-right: 0
+  .calculate__text
+    max-width: 355px
+    margin-bottom: 72px
+
+@media (min-width: 768px)
+  .calculate__inputs
+    max-width: 870px
+  .calculate__input
+    width: 47.651%
+    max-width: 400px
+    min-width: 311px
+
+
+@media (min-width: 1200px)
+  .calculate
+    margin-top: 96px
+  .calculate__input
+    max-width: 400px
+    width: 91.955%
+    margin: 0 24px 24px 0
+  .calculate__text
+    max-width: 353px
+    margin-bottom: 96px

@@ -1,0 +1,152 @@
+.registration
+  position: relative
+  margin-top: 48px
+  background: #0D0F5A
+  overflow: hidden
+.registration__text
+  position: relative
+  max-width: 460px
+  font-weight: 500
+  font-size: 21px
+  line-height: 27px
+  padding: 48px 0 24px
+  color: #FFFFFF
+  z-index: 1
+.registration__button
+  position: relative
+  width: 100%
+  font-family: 'Avenir regular'
+  font-size: 16px
+  line-height: 20px
+  color: #232323
+  background: #FBB143
+  margin-bottom: 64px
+  padding: 16px 58px 20px
+  text-align: center
+  border: 0
+  border-radius: 2px
+  cursor: pointer
+  z-index: 1
+.registration__button:focus
+  outline: none
+
+.background
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 0
+.background__vector
+  position: absolute
+  display: block
+  height: 368px
+  width: 563px
+  box-sizing: border-box
+  transform: translate(0%,-20%) rotate(-50deg)
+  top: 6%
+  left: -53%
+.background__vector1
+  position: absolute
+  display: block
+  box-sizing: border-box
+  top: 65%
+  right: -45%
+  z-index: -1
+  opacity: 0.5
+  overflow: visible
+.background__vector2, .background__vector3, .background__vector4
+  display: none
+
+@media (min-width: 410px)
+  .registration__text
+    width: 82%
+    font-size: 23px
+  .registration__button
+    max-width: 500px
+    font-size: 18px
+    padding: 22px 58px 22px
+  .background__vector
+    height: 408px
+    width: 643px
+    transform: translate(0%, -20%) rotate(-50deg)
+    top: 15%
+    left: -45%
+
+
+@media (min-width: 650px)
+  .registration__text
+    max-width: 530px
+    padding: 64px 0 31px
+  .registration__button
+    max-width: 229px
+    font-size: 16px
+    line-height: 20px
+    padding: 18px 32px
+  .background__vector
+    height: 508px
+    width: 573px
+    transform: translate(-57%, -20%) rotate(-28deg)
+    top: 11%
+    left: 50%
+  .background__vector1
+    width: 385px
+    top: 70%
+    bottom: 0
+    transform: translate(40%, 0%)
+    right: 40%
+  .background__vector2
+    display: block
+    position: absolute
+    transform: translate(-40%,-108%)
+    top: 23%
+    left: 3%
+  .background__vector3
+    width: 245px
+    height: 175px
+    display: block
+    position: absolute
+    transform: translate(85%, -40%) rotate(35deg)
+    top: 55%
+    right: 5%
+
+@media (min-width: 768px)
+  .registration__text
+    min-width: 595px
+    font-size: 30px
+    line-height: 33px
+    padding: 64px 0 31px
+
+@media (min-width: 1200px)
+  .registration__text
+    font-size: 32px
+    line-height: 40px
+    padding-bottom: 40px
+  .registration__button
+    max-width: 240px
+  .background__vector
+    height: 588px
+    width: 703px
+    transform: translate(-72%, -20%) rotate(-28deg)
+    top: 11%
+    left: 50%
+  .background__vector2
+    display: block
+    position: absolute
+    transform: translate(-10%, -118%)
+    top: 23%
+    left: 3%
+  .background__vector3
+    width: 245px
+    height: 175px
+    display: block
+    position: absolute
+    transform: translate(-25%, -40%) rotate(35deg)
+    top: 55%
+    right: 1%
+  .background__vector4
+    display: block
+    position: absolute
+    transform: translate(20%, -30%)
+    top: 50%
+    right: 0

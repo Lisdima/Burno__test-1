@@ -1,0 +1,113 @@
+.subtitle
+  font-size: 18px
+  line-height: 24px
+  padding-right: 20px
+  
+.text
+  font-family: "Avenir regular"
+  font-weight: 400
+  font-size: 14px
+  line-height: 20px
+  // margin: 8px 0 64px
+  color: #575757
+    
+// How works
+.how-works
+  position: relative
+  overflow: hidden
+.how-works__title
+  // margin-bottom: 39px
+.how-works__subtitle
+  // margin-top: 10px
+.item__text
+  max-width: 280px
+  width: 90%
+  font-size: 14px
+  line-height: 20px
+  margin-top: 12px
+  margin-bottom: 30px
+
+.item
+  margin-top: 10px
+// .item img
+// position: relative
+//   z-index: 1
+.item__images
+  position: relative
+
+.dotted-line
+  position: absolute
+  top: -570%
+  left: -7%
+  z-index: -1
+.dotted-line2
+  display: none
+  z-index: -1
+
+
+@media (min-width: 410px)
+  .subtitle
+    max-width: 270px
+    font-size: 20px
+
+  .text
+    font-size: 16px
+    max-width: 430px
+
+  .dotted-line
+    top: -580%
+    left: -5%
+
+@media (min-width: 650px)
+  .subtitle
+    font-size: 18px
+
+  .text
+    font-size: 14px
+    line-height: 20px
+    width: 100%
+    margin-right: 0
+
+  .how-works__list
+    display: flex 
+  .how-works__item
+    margin-top: 24px
+    margin-right: 30px
+  .how-works__item:last-child
+    margin-right: 0    
+
+  .dotted-line
+    display: none
+  .dotted-line2
+    display: inline-block
+    position: absolute
+    right: 90%
+    top: 20%
+
+@media (min-width: 768px)
+  .item
+    max-width: 260px
+    width: 29.053%
+  .dotted-line
+    left: -344%
+
+@media (min-width: 1200px)
+  .subtitle
+    font-size: 20px
+    
+  .item 
+    max-width: 290px
+    width: 29.886%
+  .item:last-child
+    margin-left: 10px
+  .item__subtitle
+    width: 104%
+    padding-right: 0
+  .item__text
+    max-width: 280px
+
+  .dotted-line2
+    width: 2400px
+    height: 50px
+    top: 0%
+    transform: translate(800px, 10px)
